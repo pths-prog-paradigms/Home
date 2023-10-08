@@ -28,8 +28,14 @@
 Апелляции по оценкам будут приниматься в разумных пределах — по модулю того, что преподаватель — человек и мог
 чего-то не заметить.
 
-## Ссылки на код с лекции
-ООП: [OOP-samples](https://github.com/pths-prog-paradigms/OOP-samples)
+## Материалы
+### Конспекты:
+ - [Основы Котлина](https://github.com/LDemetrios/ProgLectures/blob/main/01-kotlin-basics.pdf)
+ - [ООП](https://github.com/LDemetrios/ProgLectures/blob/main/02-kotlin-oop.pdf)
+ - [Наследование](https://github.com/LDemetrios/ProgLectures/blob/main/03-inheritance.pdf)
+ 
+ Если встроенное отображение github считает, что unable to render code block, попытайтесь скачать файл и открыть его самостоятельно.
+ 
 
 ## Настройка окружения
 
