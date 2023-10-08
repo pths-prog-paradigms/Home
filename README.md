@@ -37,8 +37,13 @@
  Если встроенное отображение github считает, что unable to render code block, попытайтесь скачать файл и открыть его самостоятельно.
  
 
-## Настройка окружения
+## Запуск без IDE
 
+Для этого есть отдельный гайд, расположенный [тут](https://github.com/pths-prog-paradigms/Home/blob/main/maven-guide.pdf). Перед этим, всё же, придётся установить Java версии 17 или выше, а также Git. 
+- Download [Java](https://www.oracle.com/cis/java/technologies/downloads/)
+- Download [Git](https://git-scm.com/download/win)
+
+## Настройка окружения
 ### Котлин
 
 Предпочтительная IDE для разработки на Котлине - [Intellij IDEa от JetBrains](https://www.jetbrains.com/idea/download/).
