@@ -33,7 +33,7 @@
  - [Основы Котлина](https://github.com/LDemetrios/ProgLectures/blob/main/01-kotlin-basics.pdf)
  - [ООП](https://github.com/LDemetrios/ProgLectures/blob/main/02-kotlin-oop.pdf)
  - [Наследование](https://github.com/LDemetrios/ProgLectures/blob/main/03-inheritance.pdf)
- 
+ - GUI конспектов не будет, но есть [примеры с лекции](https://github.com/pths-prog-paradigms/GUI-Samples)
  Если встроенное отображение github считает, что unable to render code block, попытайтесь скачать файл и открыть его самостоятельно.
  
 
