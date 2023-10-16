@@ -10,12 +10,10 @@
 Предполагается, что вы уже установили java необходимой версии (17+), а также
 Git. Проверьте, что у вас переменная окружения JAVA_HOME существует и указывает
 на папку установки Java (Например, у меня это `C:\Program Files\Java\jdk-17`).
-Если нет --- добавьте её. #link(
-  "https://remontka.pro/environment-variables-windows/",
-)[Вот довольно подробный гайд], если вы не знаете, что такое переменные
+Если нет --- добавьте её. https://remontka.pro/environment-variables-windows/ --- Вот довольно подробный гайд, если вы не знаете, что такое переменные
 окружения и с чем их едят.
 
-Скачайте Maven (вас интересует binary zip archive): #link("https://maven.apache.org/download.cgi")[ссылка].
+Скачайте Maven (вас интересует binary zip archive): https://maven.apache.org/download.cgi --- ссылка.
 Распакуйте, куда считаете нужным. Установите переменную MAVEN_HOME --- место,
 куда вы его распаковали (например, у меня это `C:\Program
 Files\Maven\apache-maven-3.9.5`). Добавьте вхождение `%MAVEN_HOME%\bin` в
@@ -64,9 +62,7 @@ git push```
 
 В задании по KotlinBasics не учтено, что может возникнуть необходимость работать
 без IDE, поэтому чтобы запускаться из консоли, поменяйте pom.xml в проекте на
-тот, что лежит #link(
-  "https://github.com/pths-prog-paradigms/Home/blob/main/kotlin-basics/pom.xml",
-)[здесь].
+тот, что лежит https://github.com/pths-prog-paradigms/Home/blob/main/kotlin-basics/pom.xml --- здесь.
 
 Из консоли (не из Git Bash, а именно из Windows'овой консоли), из каталога
 проекта (пользоваться можно той же командой сd для перемещения), выполните
