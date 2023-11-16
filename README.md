@@ -46,6 +46,8 @@
 - Download [Java](https://www.oracle.com/cis/java/technologies/downloads/)
 - Download [Git](https://git-scm.com/download/win)
 
+Для отладки clojure удобно пользоваться [вот этой Online REPL](https://clojurescript.io/), для запуска больших файлов и тестов -- [вот этой](https://www.mycompiler.io/new/clojure).
+
 ## Настройка окружения
 ### Котлин
 
@@ -115,8 +117,7 @@
 Чтобы запустить Clojure REPL (Read-Evalutate-Print-Loop console), в меню выберите Run > Edit Configurations,
 добавить новую (+ в левом верхнем углу) > Clojure REPL > Local. 
 При желании введите имя вместо Unnamed; OK. 
-Теперь её можно запускать, выбирая в меню в правом верхнем углу и нажимая Run (зелёный треугольник). 
-
+Теперь её можно запускать, выбирая в меню в правом верхнем углу и нажимая Run (зелёный треугольник).
 
 ## Инструкция по сдаче Д/З
 
