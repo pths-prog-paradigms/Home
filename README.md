@@ -34,6 +34,8 @@
  - [ООП](https://github.com/LDemetrios/ProgLectures/blob/main/02-kotlin-oop.pdf)
  - [Наследование](https://github.com/LDemetrios/ProgLectures/blob/main/03-inheritance.pdf)
  - GUI конспектов не будет, но есть [примеры с лекции](https://github.com/pths-prog-paradigms/GUI-Samples)
+ - [Лямбды](https://github.com/LDemetrios/ProgLectures/blob/main/05-kotlin-lambdae.pdf)
+ - Основы Кложура: [кодовым файлом](https://github.com/LDemetrios/ProgLectures/blob/main/basics.clj) или [отформатированной pdf'кой](https://github.com/LDemetrios/ProgLectures/blob/main/06-clojure-basics.pdf)
 
  Если встроенное отображение github считает, что unable to render code block, попытайтесь скачать файл и открыть его самостоятельно.
  
@@ -72,6 +74,49 @@
 На школьных компьютерах, скорее всего, Intellij IDEa уже установлена.
 Если же нет, на занятии можно будет воспользоваться сайтом [play.kotlinlang.org](https://play.kotlinlang.org), и запускать код там.
 У сайта есть ограничение на время работы программы, но оно не очень жёсткое (для кода в рамках занятия — точно хватит).
+
+### Кложур
+
+Для Intellij IDEa существует плагин под названием Cursive для поддержки clojure, установите его. 
+Лично я рекомендую также Rainbow Brackets Lite.
+Создать проект отдельно на clojure не выйдет, нужно создавать проект на java. Система сборки так же Maven. 
+После этого в раздел зависимостей (dependencies) в pom.xml допишите
+
+```maven
+<dependency>
+    <groupId>org.clojure</groupId>
+    <artifactId>clojure</artifactId>
+    <version>1.11.0</version>
+</dependency>
+```
+
+Если его нет, создайте:
+
+```maven
+<dependencies>
+    <dependency>
+        <groupId>org.clojure</groupId>
+        <artifactId>clojure</artifactId>
+        <version>1.11.0</version>
+    </dependency>
+</dependencies>
+```
+
+После этого нажмите правой кнопкой на pom.xml, выберите Maven > Reload Project.
+
+Исходники на clojure имеют расширение .clj.
+Чтобы запустить такой файл, выделите его в окне Project и нажмите Ctrl+Shift+F10. 
+Для вывода используются функции `print` и `println`, попробуйте запустить код
+
+```clojure
+(println "Hello, World!")
+```
+
+Чтобы запустить Clojure REPL (Read-Evalutate-Print-Loop console), в меню выберите Run > Edit Configurations,
+добавить новую (+ в левом верхнем углу) > Clojure REPL > Local. 
+При желании введите имя вместо Unnamed; OK. 
+Теперь её можно запускать, выбирая в меню в правом верхнем углу и нажимая Run (зелёный треугольник). 
+
 
 ## Инструкция по сдаче Д/З
 
