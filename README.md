@@ -49,7 +49,7 @@
 Для отладки clojure удобно пользоваться [вот этой Online REPL](https://clojurescript.io/), для запуска больших файлов и тестов -- [вот этой](https://www.mycompiler.io/new/clojure).
 
 ## Настройка окружения
-### Котлин
+### Kotlin
 
 Предпочтительная IDE для разработки на Котлине - [Intellij IDEa от JetBrains](https://www.jetbrains.com/idea/download/).
 Будет достаточно Community версии.
@@ -77,7 +77,7 @@
 Если же нет, на занятии можно будет воспользоваться сайтом [play.kotlinlang.org](https://play.kotlinlang.org), и запускать код там.
 У сайта есть ограничение на время работы программы, но оно не очень жёсткое (для кода в рамках занятия — точно хватит).
 
-### Кложур
+### Clojure
 
 Для Intellij IDEa существует плагин под названием Cursive для поддержки clojure, установите его. 
 Лично я рекомендую также Rainbow Brackets Lite.
@@ -118,6 +118,20 @@
 добавить новую (+ в левом верхнем углу) > Clojure REPL > Local. 
 При желании введите имя вместо Unnamed; OK. 
 Теперь её можно запускать, выбирая в меню в правом верхнем углу и нажимая Run (зелёный треугольник).
+
+### Clojure на школьных компьютерах
+
+Скачать плагин придётся вручную [отсюда](https://plugins.jetbrains.com/plugin/8090-cursive/versions),
+подходящей версии (кажется, это должна быть версия 1.12.3-2021.1, смотрите сами, какая совместима с версией IDEa на компе)
+и установить с диска (File > Settings > Plugins > значок шестерёнки > Install Plugin from Disk).
+
+А также нужно скачать три jar-файла со стандартной библиотекой clojure: 
+[раз](https://repo1.maven.org/maven2/org/clojure/clojure/1.11.1/clojure-1.11.1.jar),
+[два](https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar),
+[три](https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar). 
+После этого их нужно добавить как зависимости: File > Project Structure > Libraries > + > Java > выбирать по одной! 
+Если IDEa спросит "какого типа этот jar", нужно выбрать, что это класс-файлы (Classes).
+Затем согласиться, чтобы библиотеки были добавлены ко всем модулям.
 
 ## Инструкция по сдаче Д/З
 
